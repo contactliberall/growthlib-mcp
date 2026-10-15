@@ -1,0 +1,23 @@
+{
+  "name": "@liberall/growthlib-mcp",
+  "version": "0.1.0",
+  "description": "Serveur MCP (stdio) pour piloter Growth'Lib depuis Claude Desktop/Claude Code — enveloppe l'API v1 déjà déployée, sans secret embarqué.",
+  "main": "src/server.js",
+  "bin": {
+    "growthlib-mcp": "src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Liberall Conseil",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  }
+}
